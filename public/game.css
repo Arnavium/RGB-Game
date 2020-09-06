@@ -1,0 +1,69 @@
+.square{
+	width: 25%;
+	float:left;
+	padding-bottom: 25%;
+	margin: 2%;
+	border-radius: 50%;
+	transition: background 1.0s;
+}
+body{
+	background-color: white;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;;
+}
+#container{
+	margin: 20px auto;
+	max-width: 600px;
+}
+h1 span{
+	font-size: 200%;
+}
+#name{
+	margin-top: 33%;
+	padding-left: 60%;
+	font-weight: 700;
+	color: rgb(64,9,96);
+}
+h1{
+	padding: 20px 0;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	background:rgb(64,9,96);
+	margin: 0;
+	font-weight: normal;
+}
+#msg{
+	color:rgb(64,9,96);
+	display: inline-block;
+	width: 40%;
+	font-weight: 700;
+}
+#strip{
+	display: block;
+	text-align: center;
+	background-color:rgba(64,9,96,0.2);
+	text-transform: uppercase;
+	height: 2em;
+	color: rgb(64,9,96);
+	font-size: large;
+}
+.selected{
+	color: rgb(64,9,96);
+	background-color: rgba(64,9,96,0.3);
+}
+button{
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	height: 2em;
+	font-size: inherit;
+	letter-spacing: 1px;
+	color: rgb(64,9,96);
+	font-weight: 700;
+	transition: all 0.5s;
+}
+button:hover{
+	color: rgb(64,9,96);
+	background: rgba(64,9,96,0.3);
+}
